@@ -242,7 +242,7 @@ DELIMITER ;
 SELECT item_id, discount_price(item_id), quantity, item_total(item_id)
 FROM order_items;
 
--- PART 8
+-- PART 7
 
 -- return the discount percent, discount amount, and discount price for each product
 SELECT 
