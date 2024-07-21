@@ -8,11 +8,14 @@ Link to the [Airbnb Tableau Dashboard](https://public.tableau.com/views/AirBnBTa
 ## Resources
 1. Data Source:
 - [OurWorldInData](https://ourworldindata.org/covid-deaths)
-- CovidDeaths.csv
-- CovidVaccinations.csv
+- owid-covid-data.csv
+- CovidDeaths.xlsx
+- CovidVaccinations.xlsx
 
 2. Software:
+- Microsoft Excel
 - Microsoft SQL Server Management Studio
 
-## Download data and JOIN table
-- download useful data
+## Organize the Data
+split the original dataset into CovidDeaths and CovidVacciantions
+joined it on the population
