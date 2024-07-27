@@ -1,67 +1,103 @@
 # SQL Data Exploration: COVID-19
 
 ## Project Overview
-Exploring the COVID-19 Dataset using Microsoft SQL Server Management Studio
+The COVID-19 pandemic has had a profound impact on global health and economies, necessitating a comprehensive analysis of its spread, fatalities, and vaccination efforts. This project aims to explore and analyze the COVID-19 dataset from OurWorldInData using Microsoft SQL Server Management Studio (SSMS). By leveraging SQL queries, we will gain valuable insights into the pandemic's impact across different countries and continents. Key areas of focus include infection rates, case fatality rates, vaccination coverage, and their relationships with population metrics. This project will also highlight the importance of data cleaning, standardization, and the use of SQL tools for data analysis and visualization preparation.
 
 ## Resources
-1. Data Source:
-- [OurWorldInData](https://ourworldindata.org/covid-deaths)
-- owid-covid-data.csv
-- CovidDeaths.xlsx
-- CovidVaccinations.xlsx
+1. **Data Source:**
+   - [OurWorldInData](https://ourworldindata.org/covid-deaths)
+   - Files: `owid-covid-data.csv`, `CovidDeaths.xlsx`, `CovidVaccinations.xlsx`
+2. **Software:**
+   - Microsoft Excel
+   - Microsoft SQL Server Management Studio (SSMS)
 
-2. Software:
-- Microsoft Excel
-- Microsoft SQL Server Management Studio
+## Project Highlights
+1. Data Preparation and Cleaning
+- This process starts with splitting the comprehensive dataset from OurWorldInData into two distinct Excel files: CovidDeaths.xlsx and CovidVaccinations.xlsx, each focusing on specific aspects of the pandemic.
+- The cleaning process involves handling missing values, standardizing date and numerical formats, and removing duplicates to maintain data integrity.
+- A critical step is joining these datasets on the population data to ensure consistency and completeness.
+- This preparation is essential as it transforms raw data into a structured format, making it suitable for in-depth analysis and ensuring reliable results when imported into Microsoft SQL Server Management Studio.
+2. Exploratory Data Analysis:
+- Using SQL queries in Microsoft SQL Server Management Studio, we will calculate key metrics such as the infection rate, case fatality rate, and vaccination coverage for each country.
+- This analysis will include determining the percentage of the population infected with COVID-19, the likelihood of death upon infection (case fatality rate), and the proportion of the population vaccinated.
+- These insights will not only highlight the severity and spread of the virus across different regions but also provide a comparative view of how countries have managed vaccinations.
+- The EDA will help identify patterns, trends, and outliers, providing a comprehensive understanding of the global and regional impacts of COVID-19.
 
 ## Data Cleaning
-- Excel: split the original OWID dataset into CovidDeaths.xlsx and CovidVacciantions.xlsx
-- Joined on population
+- **Excel**: The original dataset from OurWorldInData was split into two separate files: `CovidDeaths.xlsx` and `CovidVaccinations.xlsx`.
+- **Joining Data**: Both datasets were joined on the population data to ensure consistency and accuracy.
 
 ## SQL Data Exploration
 
 ### Select Data
+The initial step involves selecting and importing the relevant data into SQL Server for further analysis.
 
 ![Screenshot 2024-07-20 184942](https://github.com/user-attachments/assets/dc98f5ea-0fab-4e89-903d-2d16cdc1bbef)
 
-### Standardize data type
+### Standardize Data Type
+Standardizing data types ensures consistency, particularly for date formats and numerical data, which is crucial for accurate analysis.
 
 ![Screenshot 2024-07-20 185014](https://github.com/user-attachments/assets/99274f0e-ba85-4757-ad50-ca9781e76a61)
 
-### Show the likelihood of dying if you contract COVID-19 in your country
+### Show the Likelihood of Dying if You Contract COVID-19 in Your Country
+This step calculates the case fatality rate (CFR) by country to show the likelihood of death upon contracting COVID-19.
 
 ![Screenshot 2024-07-20 185043](https://github.com/user-attachments/assets/92a43ec7-8406-410b-a177-dbd516641fd8)
 
-### Percentage of population got COVID-19
+### Percentage of Population that Got COVID-19
+This query calculates the percentage of the population that contracted COVID-19 in each country.
 
 ![Screenshot 2024-07-20 185105](https://github.com/user-attachments/assets/121949f9-ea0f-4872-98f8-9dd69f225ff3)
 
-### Countries with highest infection rate compared to population
+### Countries with the Highest Infection Rate Compared to Population
+Identifies countries with the highest infection rates relative to their population size.
 
 ![Screenshot 2024-07-20 185151](https://github.com/user-attachments/assets/8a62601a-cac8-4718-9900-b65c806c5c97)
 
+### Break Things Down by Continent
+Aggregates data by continent to provide a broader regional perspective on the impact of COVID-19.
 
-### Break things down by continent
-
-### Showing Countries with the highest death count per population
+### Showing Countries with the Highest Death Count per Population
+Calculates the death count per population for each country to identify those most affected by COVID-19 fatalities.
 
 ![Screenshot 2024-07-20 185231](https://github.com/user-attachments/assets/f1c2c275-0d06-4916-a705-71daa7ce616e)
 ![Screenshot 2024-07-20 185213](https://github.com/user-attachments/assets/e57a4549-ae99-4484-9fb6-76ee5b65b1db)
 
 ### Global Numbers
+Provides a summary of global statistics, including total cases, deaths, and vaccination rates.
 
 ![Screenshot 2024-07-20 185255](https://github.com/user-attachments/assets/a23f7a94-fa70-4fd1-b741-f1aff0322a1f)
 
-### Using a CTE to look at total population vs vaccinations
+### Using a CTE to Look at Total Population vs Vaccinations
+Uses a Common Table Expression (CTE) to compare the total population to the number of vaccinations administered.
 
 ![Screenshot 2024-07-20 185348](https://github.com/user-attachments/assets/fb719d25-275f-4961-97b8-49e9e09e883a)
 
-### Temp table
+### Temp Table
+Creates a temporary table to store intermediate results for complex queries and calculations.
 
 ![Screenshot 2024-07-20 185516](https://github.com/user-attachments/assets/58f282e2-8e5e-4a0d-8ff2-e25082ed6df7)
 ![Screenshot 2024-07-20 185445](https://github.com/user-attachments/assets/ebb682ae-c39c-4c98-b86b-0cc24779b54b)
 
-### Creating view to store data for later visualizations
+### Creating View to Store Data for Later Visualizations
+Creates a view to store the processed data, making it easier to generate visualizations and further analysis.
 
 ![Screenshot 2024-07-20 185617](https://github.com/user-attachments/assets/91f6cb77-ce91-4ee1-9c5c-9b2d89c05ff7)
 ![Screenshot 2024-07-20 185628](https://github.com/user-attachments/assets/ae49f620-e0d4-4266-b51f-4c28f46925f1)
+
+### Questions Answered
+
+1. **Which countries have the highest and lowest infection rates?**
+   - **Answer**: By calculating the percentage of the population infected with COVID-19 in each country, we can identify those with the highest and lowest infection rates. This information helps businesses and policymakers understand which regions are most affected and require more stringent health measures or support.
+
+2. **What is the case fatality rate (CFR) in different countries, and how does it compare globally?**
+   - **Answer**: The case fatality rate (CFR) can be determined by dividing the total number of deaths by the total number of confirmed cases in each country. This rate indicates the severity of the virus and the effectiveness of the healthcare system in managing COVID-19. Comparing CFR across countries helps in assessing global healthcare responses and identifying best practices.
+
+3. **What percentage of the population has been vaccinated in each country?**
+   - **Answer**: By calculating the vaccination rate, or the percentage of the population that has received at least one dose of the COVID-19 vaccine, we can evaluate the progress of vaccination campaigns globally. This information is crucial for understanding the level of herd immunity and planning future vaccination drives.
+
+4. **Which countries have the highest death counts per population, and what might be contributing factors?**
+   - **Answer**: By calculating the death count per population (total deaths/population), we can identify the countries most impacted by COVID-19 fatalities. Factors contributing to high death rates may include healthcare infrastructure, government response, population density, and pre-existing health conditions. Understanding these factors can help tailor responses to mitigate future outbreaks.
+
+5. **How do infection and vaccination rates vary across different continents?**
+   - **Answer**: Aggregating data by continent and analyzing infection and vaccination rates provides a broader regional perspective. This comparison helps identify which continents are lagging in vaccination efforts or have higher infection rates, guiding international aid and resource allocation. It also aids businesses in making strategic decisions regarding operations and expansions in different regions based on the pandemic's impact.
