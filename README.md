@@ -26,7 +26,7 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 - The EDA will help identify patterns, trends, and outliers, providing a comprehensive understanding of the global and regional impacts of COVID-19.
 
 ## Data Cleaning
-- **Excel**: The original dataset from OurWorldInData was split into two separate files: `CovidDeaths.xlsx` and `CovidVaccinations.xlsx`.
+- **Excel**: The original dataset from OurWorldInData was split into two separate files: [CovidDeaths.xlsx](CovidDeaths.xlsx) and [CovidVaccinations.xlsx](CovidVaccinations.xlsx).
 - **Joining Data**: Both datasets were joined on the population data to ensure consistency and accuracy.
 
 ## SQL Data Exploration
