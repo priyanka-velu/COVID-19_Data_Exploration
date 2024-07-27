@@ -6,7 +6,9 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 ## Resources
 1. **Data Source:**
    - [OurWorldInData](https://ourworldindata.org/covid-deaths)
-   - Files: `owid-covid-data.csv`, `CovidDeaths.xlsx`, `CovidVaccinations.xlsx`
+   - [owid-covid-data.csv](owid-covid-data.csv)
+   - [CovidDeaths.xlsx](CovidDeaths.xlsx)
+   - [CovidVaccinations.xlsx](CovidVaccinations.xlsx)
 2. **Software:**
    - Microsoft Excel
    - Microsoft SQL Server Management Studio (SSMS)
