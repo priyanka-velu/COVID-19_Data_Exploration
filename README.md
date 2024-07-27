@@ -1,4 +1,4 @@
-# COVID-19 Data Exploration in SQL
+# SQL Data Exploration: COVID-19
 
 ## Project Overview
 Exploring the COVID-19 Dataset using Microsoft SQL Server Management Studio
