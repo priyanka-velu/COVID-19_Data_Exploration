@@ -19,7 +19,7 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 - The cleaning process involves handling missing values, standardizing date and numerical formats, and removing duplicates to maintain data integrity.
 - A critical step is joining these datasets on the population data to ensure consistency and completeness.
 - This preparation is essential as it transforms raw data into a structured format, making it suitable for in-depth analysis and ensuring reliable results when imported into Microsoft SQL Server Management Studio.
-### 2. Exploratory Data Analysis:
+### 2. Exploratory Data Analysis
 - Using SQL queries in Microsoft SQL Server Management Studio, we will calculate key metrics such as the infection rate, case fatality rate, and vaccination coverage for each country.
 - This analysis will include determining the percentage of the population infected with COVID-19, the likelihood of death upon infection (case fatality rate), and the proportion of the population vaccinated.
 - These insights will not only highlight the severity and spread of the virus across different regions but also provide a comparative view of how countries have managed vaccinations.
