@@ -71,19 +71,23 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 
 ### 8. Total Population vs Vaccinations Using a CTE 
 - Uses a Common Table Expression (CTE) to compare the total population to the number of vaccinations administered.
+- We observe that around 1.71% of people in the United States were vaccinated around December of 2020. 
 
 ![v](https://github.com/user-attachments/assets/c5bf3250-f5f3-4479-82a8-2ded51ee2af1)
 
 ### 9. Store Results in a Temp Table
 - Creates a temporary table to store intermediate results for complex queries and calculations.
+- We sucessfully create a temp table that displays information on the number of vaccinations rolling vaccination, and sum of new vaccinations.
 
-![Screenshot 2024-07-20 185516](https://github.com/user-attachments/assets/58f282e2-8e5e-4a0d-8ff2-e25082ed6df7)
 ![Screenshot 2024-07-20 185445](https://github.com/user-attachments/assets/ebb682ae-c39c-4c98-b86b-0cc24779b54b)
 
+![Screenshot 2024-07-20 185516](https://github.com/user-attachments/assets/58f282e2-8e5e-4a0d-8ff2-e25082ed6df7)
+
 ### 10. Store Data for Future Visualizations with View
-- Creates a view to store the processed data, making it easier to generate visualizations and further analysis.
+- We successfully created a view of vaccination information to store, making it easier to generate visualizations and further analysis.
 
 ![Screenshot 2024-07-20 185617](https://github.com/user-attachments/assets/91f6cb77-ce91-4ee1-9c5c-9b2d89c05ff7)
+
 ![Screenshot 2024-07-20 185628](https://github.com/user-attachments/assets/ae49f620-e0d4-4266-b51f-4c28f46925f1)
 
 ### Questions Answered
