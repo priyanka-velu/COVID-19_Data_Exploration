@@ -50,7 +50,7 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 
 ![hi](https://github.com/user-attachments/assets/0d1cdf99-187d-478c-af2a-e25c883c9797)
 
-### 6. Shows Countries with the Highest Death Count Per Population
+### 4. Shows Countries with the Highest Death Count Per Population
 - Calculates the death count per population for each country to identify those most affected by COVID-19 fatalities.
 - We observe that North America suffered the highest death count out of all of the continents.
 
@@ -60,20 +60,20 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 
 ![Screenshot 2024-07-20 185213](https://github.com/user-attachments/assets/e57a4549-ae99-4484-9fb6-76ee5b65b1db)
 
-### 7. Global Numbers
+### 5. Global Numbers: Total COVID-19 Cases and Deaths
 - Provides a summary of global statistics, including total cases, deaths, and vaccination rates.
 - We observe that out of the total_cases of 774 million, 704 million people died. This leads to a death percentage of 90.9% if you were infected.
 - The number 90.9% as a death percentage seems disproportionately high, this would prompt us to explore this data for data accuracy.
 
 ![Screenshot 2024-07-20 185255](https://github.com/user-attachments/assets/a23f7a94-fa70-4fd1-b741-f1aff0322a1f)
 
-### 8. Total Population vs Vaccinations Using a CTE 
+### 6. Total Population vs Vaccinations Using a CTE 
 - Uses a Common Table Expression (CTE) to compare the total population to the number of vaccinations administered.
 - We observe that around 1.71% of people in the United States were vaccinated around December of 2020. 
 
 ![v](https://github.com/user-attachments/assets/c5bf3250-f5f3-4479-82a8-2ded51ee2af1)
 
-### 9. Store Results in a Temp Table
+### 7. Store Results in a Temp Table
 - Creates a temporary table to store intermediate results for complex queries and calculations.
 - We sucessfully create a temp table that displays information on the number of vaccinations rolling vaccination, and sum of new vaccinations.
 
@@ -81,7 +81,7 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 
 ![Screenshot 2024-07-20 185516](https://github.com/user-attachments/assets/58f282e2-8e5e-4a0d-8ff2-e25082ed6df7)
 
-### 10. Store Data for Future Visualizations with View
+### 8. Store Data for Future Visualizations with View
 - We successfully created a view of vaccination information to store, making it easier to generate visualizations and further analysis.
 
 ![Screenshot 2024-07-20 185617](https://github.com/user-attachments/assets/91f6cb77-ce91-4ee1-9c5c-9b2d89c05ff7)
