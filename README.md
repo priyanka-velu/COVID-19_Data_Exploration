@@ -35,7 +35,7 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 ### 1. Likelihood of Dying if You Contract COVID-19 in Your Country
 - This step calculates the case fatality rate (CFR) by country to show the likelihood of death upon contracting COVID-19.
 
-]![deathper](https://github.com/user-attachments/assets/62596de7-cd2a-4815-afb3-9fd4a7fc914a)
+![deathper](https://github.com/user-attachments/assets/62596de7-cd2a-4815-afb3-9fd4a7fc914a)
 
 ### 2. Percentage of Population that Got COVID-19
 - This query calculates the percentage of the population that contracted COVID-19 in each country.
