@@ -34,18 +34,20 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 
 ### 1. Likelihood of Dying if You Contract COVID-19 in Your Country
 - This step calculates the case fatality rate (CFR) by country to show the likelihood of death upon contracting COVID-19.
+- For example, we observe that Zimbabwe had a death percentage of 21.6% during may of 2020, whereas the United Kingdom has a 21.5% death percentage during that time as well. 
 
 ![deathper](https://github.com/user-attachments/assets/62596de7-cd2a-4815-afb3-9fd4a7fc914a)
 
 ### 2. Percentage of Population that Got COVID-19
 - This query calculates the percentage of the population that contracted COVID-19 in each country.
+- We observe that Brunei had the largest Infected Percentage of 76.5% during February of 2024.
 
 ![inf](https://github.com/user-attachments/assets/c7fb1040-bc8e-491d-996d-065f50db3330)
 
 ### 3. Countries with the Highest Infection Rate Compared to Population
 - Identifies countries with the highest infection rates relative to their population size.
-
-![i](https://github.com/user-attachments/assets/f7e4db3f-9b03-498e-8c54-c93b4bb79cad)
+- We observe that 
+<>
 
 
 ### Break Things Down by Continent
