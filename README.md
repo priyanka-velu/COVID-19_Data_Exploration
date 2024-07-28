@@ -60,6 +60,7 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 ![Screenshot 2024-07-20 185231](https://github.com/user-attachments/assets/f1c2c275-0d06-4916-a705-71daa7ce616e)
 
 - We observe that United States suffered the highest total death count compared to all countries. 
+
 ![Screenshot 2024-07-20 185213](https://github.com/user-attachments/assets/e57a4549-ae99-4484-9fb6-76ee5b65b1db)
 
 ### 7. Global Numbers
