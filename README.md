@@ -46,30 +46,32 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 
 ### 3. Countries with the Highest Infection Rate Compared to Population
 - Identifies countries with the highest infection rates relative to their population size.
-- We observe that
-- 
+- We observe that Brunei has the largest infection rate of 76.5%, followed up by Cyprus with 76.0%, and San Marino with 75.0% of people infected. 
+
 ![hi](https://github.com/user-attachments/assets/0d1cdf99-187d-478c-af2a-e25c883c9797)
-
-
 
 ### Break Things Down by Continent
 - Aggregates data by continent to provide a broader regional perspective on the impact of COVID-19.
 
 ### 6. Shows Countries with the Highest Death Count Per Population
 - Calculates the death count per population for each country to identify those most affected by COVID-19 fatalities.
+- We observe that North America suffered the highest death count out of all of the continents.
 
 ![Screenshot 2024-07-20 185231](https://github.com/user-attachments/assets/f1c2c275-0d06-4916-a705-71daa7ce616e)
+
+- We observe that United States suffered the highest total death count compared to all countries. 
 ![Screenshot 2024-07-20 185213](https://github.com/user-attachments/assets/e57a4549-ae99-4484-9fb6-76ee5b65b1db)
 
 ### 7. Global Numbers
 - Provides a summary of global statistics, including total cases, deaths, and vaccination rates.
+- We observe that out of the total_cases of 774 million, 704 million people died. This leads to a death percentage of 90.9% if you were infected.
 
 ![Screenshot 2024-07-20 185255](https://github.com/user-attachments/assets/a23f7a94-fa70-4fd1-b741-f1aff0322a1f)
 
 ### 8. Total Population vs Vaccinations Using a CTE 
 - Uses a Common Table Expression (CTE) to compare the total population to the number of vaccinations administered.
-
-![Screenshot 2024-07-20 185348](https://github.com/user-attachments/assets/fb719d25-275f-4961-97b8-49e9e09e883a)
+  
+<>
 
 ### 9. Store Results in a Temp Table
 - Creates a temporary table to store intermediate results for complex queries and calculations.
