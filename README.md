@@ -46,8 +46,10 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 
 ### 3. Countries with the Highest Infection Rate Compared to Population
 - Identifies countries with the highest infection rates relative to their population size.
-- We observe that 
-<>
+- We observe that
+- 
+![hi](https://github.com/user-attachments/assets/0d1cdf99-187d-478c-af2a-e25c883c9797)
+
 
 
 ### Break Things Down by Continent
