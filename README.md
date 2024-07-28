@@ -50,9 +50,6 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 
 ![hi](https://github.com/user-attachments/assets/0d1cdf99-187d-478c-af2a-e25c883c9797)
 
-### Break Things Down by Continent
-- Aggregates data by continent to provide a broader regional perspective on the impact of COVID-19.
-
 ### 6. Shows Countries with the Highest Death Count Per Population
 - Calculates the death count per population for each country to identify those most affected by COVID-19 fatalities.
 - We observe that North America suffered the highest death count out of all of the continents.
