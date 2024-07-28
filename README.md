@@ -14,8 +14,7 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
    - Microsoft SQL Server Management Studio (SSMS)
 
 ## Project Highlights
-### 1. Data Preparation and Cleaning
-- This process starts with splitting the comprehensive dataset from OurWorldInData into two distinct Excel files: CovidDeaths.xlsx and CovidVaccinations.xlsx, each focusing on specific aspects of the pandemic.
+### 1. Data Cleaning
 - The cleaning process involves handling missing values, standardizing date and numerical formats, and removing duplicates to maintain data integrity.
 - A critical step is joining these datasets on the population data to ensure consistency and completeness.
 - This preparation is essential as it transforms raw data into a structured format, making it suitable for in-depth analysis and ensuring reliable results when imported into Microsoft SQL Server Management Studio.
@@ -23,66 +22,60 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 - Using SQL queries in Microsoft SQL Server Management Studio, we will calculate key metrics such as the infection rate, case fatality rate, and vaccination coverage for each country.
 - This analysis will include determining the percentage of the population infected with COVID-19, the likelihood of death upon infection (case fatality rate), and the proportion of the population vaccinated.
 - These insights will not only highlight the severity and spread of the virus across different regions but also provide a comparative view of how countries have managed vaccinations.
-- The EDA will help identify patterns, trends, and outliers, providing a comprehensive understanding of the global and regional impacts of COVID-19.
 
-## Data Cleaning
+## Data Cleaning and Standardization
 - **Excel**: The original dataset from OurWorldInData was split into two separate files: [CovidDeaths.xlsx](CovidDeaths.xlsx) and [CovidVaccinations.xlsx](CovidVaccinations.xlsx).
 - **Joining Data**: Both datasets were joined on the population data to ensure consistency and accuracy.
-
-## SQL Data Exploration
-
-### Select Data
-The initial step involves selecting and importing the relevant data into SQL Server for further analysis.
-
-![Screenshot 2024-07-20 184942](https://github.com/user-attachments/assets/dc98f5ea-0fab-4e89-903d-2d16cdc1bbef)
-
-### Standardize Data Type
-Standardizing data types ensures consistency, particularly for date formats and numerical data, which is crucial for accurate analysis.
+- **Standardization**: Standardizing data types ensures consistency, particularly for date formats and numerical data, which is crucial for accurate analysis. Specifically, we changed the total_deaths and total_cases to float variables.
 
 ![Screenshot 2024-07-20 185014](https://github.com/user-attachments/assets/99274f0e-ba85-4757-ad50-ca9781e76a61)
 
-### Show the Likelihood of Dying if You Contract COVID-19 in Your Country
-This step calculates the case fatality rate (CFR) by country to show the likelihood of death upon contracting COVID-19.
+## SQL Data Exploration
 
+### 1. Likelihood of Dying if You Contract COVID-19 in Your Country
+- This step calculates the case fatality rate (CFR) by country to show the likelihood of death upon contracting COVID-19.
+
+NOT STATES, SHOW ALL COUNTRIES
 ![Screenshot 2024-07-20 185043](https://github.com/user-attachments/assets/92a43ec7-8406-410b-a177-dbd516641fd8)
 
-### Percentage of Population that Got COVID-19
-This query calculates the percentage of the population that contracted COVID-19 in each country.
+### 2. Percentage of Population that Got COVID-19
+- This query calculates the percentage of the population that contracted COVID-19 in each country.
 
+NOT STATES, SHOW ALL COUNTRIES
 ![Screenshot 2024-07-20 185105](https://github.com/user-attachments/assets/121949f9-ea0f-4872-98f8-9dd69f225ff3)
 
-### Countries with the Highest Infection Rate Compared to Population
-Identifies countries with the highest infection rates relative to their population size.
+### 3. Countries with the Highest Infection Rate Compared to Population
+- Identifies countries with the highest infection rates relative to their population size.
 
 ![Screenshot 2024-07-20 185151](https://github.com/user-attachments/assets/8a62601a-cac8-4718-9900-b65c806c5c97)
 
 ### Break Things Down by Continent
-Aggregates data by continent to provide a broader regional perspective on the impact of COVID-19.
+- Aggregates data by continent to provide a broader regional perspective on the impact of COVID-19.
 
-### Showing Countries with the Highest Death Count per Population
-Calculates the death count per population for each country to identify those most affected by COVID-19 fatalities.
+### 6. Shows Countries with the Highest Death Count Per Population
+- Calculates the death count per population for each country to identify those most affected by COVID-19 fatalities.
 
 ![Screenshot 2024-07-20 185231](https://github.com/user-attachments/assets/f1c2c275-0d06-4916-a705-71daa7ce616e)
 ![Screenshot 2024-07-20 185213](https://github.com/user-attachments/assets/e57a4549-ae99-4484-9fb6-76ee5b65b1db)
 
-### Global Numbers
-Provides a summary of global statistics, including total cases, deaths, and vaccination rates.
+### 7. Global Numbers
+- Provides a summary of global statistics, including total cases, deaths, and vaccination rates.
 
 ![Screenshot 2024-07-20 185255](https://github.com/user-attachments/assets/a23f7a94-fa70-4fd1-b741-f1aff0322a1f)
 
-### Using a CTE to Look at Total Population vs Vaccinations
-Uses a Common Table Expression (CTE) to compare the total population to the number of vaccinations administered.
+### 8. Total Population vs Vaccinations Using a CTE 
+- Uses a Common Table Expression (CTE) to compare the total population to the number of vaccinations administered.
 
 ![Screenshot 2024-07-20 185348](https://github.com/user-attachments/assets/fb719d25-275f-4961-97b8-49e9e09e883a)
 
-### Temp Table
-Creates a temporary table to store intermediate results for complex queries and calculations.
+### 9. Store Results in a Temp Table
+- Creates a temporary table to store intermediate results for complex queries and calculations.
 
 ![Screenshot 2024-07-20 185516](https://github.com/user-attachments/assets/58f282e2-8e5e-4a0d-8ff2-e25082ed6df7)
 ![Screenshot 2024-07-20 185445](https://github.com/user-attachments/assets/ebb682ae-c39c-4c98-b86b-0cc24779b54b)
 
-### Creating View to Store Data for Later Visualizations
-Creates a view to store the processed data, making it easier to generate visualizations and further analysis.
+### 10. Store Data for Future Visualizations with View
+- Creates a view to store the processed data, making it easier to generate visualizations and further analysis.
 
 ![Screenshot 2024-07-20 185617](https://github.com/user-attachments/assets/91f6cb77-ce91-4ee1-9c5c-9b2d89c05ff7)
 ![Screenshot 2024-07-20 185628](https://github.com/user-attachments/assets/ae49f620-e0d4-4266-b51f-4c28f46925f1)
