@@ -41,13 +41,12 @@ NOT STATES, SHOW ALL COUNTRIES
 ### 2. Percentage of Population that Got COVID-19
 - This query calculates the percentage of the population that contracted COVID-19 in each country.
 
-NOT STATES, SHOW ALL COUNTRIES
-![Screenshot 2024-07-20 185105](https://github.com/user-attachments/assets/121949f9-ea0f-4872-98f8-9dd69f225ff3)
+]![deathper](https://github.com/user-attachments/assets/62596de7-cd2a-4815-afb3-9fd4a7fc914a)
 
 ### 3. Countries with the Highest Infection Rate Compared to Population
 - Identifies countries with the highest infection rates relative to their population size.
 
-![Screenshot 2024-07-20 185151](https://github.com/user-attachments/assets/8a62601a-cac8-4718-9900-b65c806c5c97)
+![inf](https://github.com/user-attachments/assets/c7fb1040-bc8e-491d-996d-065f50db3330)
 
 ### Break Things Down by Continent
 - Aggregates data by continent to provide a broader regional perspective on the impact of COVID-19.
