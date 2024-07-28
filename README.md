@@ -70,8 +70,8 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 
 ### 8. Total Population vs Vaccinations Using a CTE 
 - Uses a Common Table Expression (CTE) to compare the total population to the number of vaccinations administered.
-  
-<>
+
+![v](https://github.com/user-attachments/assets/c5bf3250-f5f3-4479-82a8-2ded51ee2af1)
 
 ### 9. Store Results in a Temp Table
 - Creates a temporary table to store intermediate results for complex queries and calculations.
