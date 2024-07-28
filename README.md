@@ -1,4 +1,4 @@
-# SQL Data Exploration: COVID-19
+# SQL Data Exploration: COVID-19 Health Analyst
 
 ## Project Overview
 The COVID-19 pandemic has had a profound impact on global health and economies, necessitating a comprehensive analysis of its spread, fatalities, and vaccination efforts. This project aims to explore and analyze the COVID-19 dataset from OurWorldInData using Microsoft SQL Server Management Studio (SSMS). By leveraging SQL queries, we will gain valuable insights into the pandemic's impact across different countries and continents. Key areas of focus include infection rates, case fatality rates, vaccination coverage, and their relationships with population metrics. This project will also highlight the importance of data cleaning, standardization, and the use of SQL tools for data analysis and visualization preparation.
@@ -66,6 +66,7 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 ### 7. Global Numbers
 - Provides a summary of global statistics, including total cases, deaths, and vaccination rates.
 - We observe that out of the total_cases of 774 million, 704 million people died. This leads to a death percentage of 90.9% if you were infected.
+- The number 90.9% as a death percentage seems disproportionately high, this would prompt us to explore this data for data accuracy.
 
 ![Screenshot 2024-07-20 185255](https://github.com/user-attachments/assets/a23f7a94-fa70-4fd1-b741-f1aff0322a1f)
 
@@ -90,19 +91,28 @@ The COVID-19 pandemic has had a profound impact on global health and economies, 
 
 ![Screenshot 2024-07-20 185628](https://github.com/user-attachments/assets/ae49f620-e0d4-4266-b51f-4c28f46925f1)
 
-### Questions Answered
+### Health Analyst Questions Answered
 
-1. **Which countries have the highest and lowest infection rates?**
-   - **Answer**: By calculating the percentage of the population infected with COVID-19 in each country, we can identify those with the highest and lowest infection rates. This information helps businesses and policymakers understand which regions are most affected and require more stringent health measures or support.
+1. **What factors contributed to the high case fatality rate in Zimbabwe and the United Kingdom during May 2020?**
+   - **Context**: The observed case fatality rates of 21.6% in Zimbabwe and 21.5% in the United Kingdom during May 2020 are significantly high.
+   - **Follow-up**: Investigate the healthcare infrastructure, availability of medical resources, effectiveness of public health policies, and demographic characteristics of those infected during this period.
 
-2. **What is the case fatality rate (CFR) in different countries, and how does it compare globally?**
-   - **Answer**: The case fatality rate (CFR) can be determined by dividing the total number of deaths by the total number of confirmed cases in each country. This rate indicates the severity of the virus and the effectiveness of the healthcare system in managing COVID-19. Comparing CFR across countries helps in assessing global healthcare responses and identifying best practices.
+2. **What measures were implemented in Brunei that led to the highest infection rate of 76.5% in February 2024?**
+   - **Context**: Brunei had an exceptionally high infection rate of 76.5%.
+   - **Follow-up**: Analyze government policies, public health measures, and community behavior during this period to understand the underlying causes of such a high infection rate.
 
-3. **What percentage of the population has been vaccinated in each country?**
-   - **Answer**: By calculating the vaccination rate, or the percentage of the population that has received at least one dose of the COVID-19 vaccine, we can evaluate the progress of vaccination campaigns globally. This information is crucial for understanding the level of herd immunity and planning future vaccination drives.
+3. **How did the healthcare system and government response in North America contribute to the high death count?**
+   - **Context**: North America suffered the highest death count among all continents, with the United States having the highest total death count.
+   - **Follow-up**: Examine healthcare capacity, response times, policy decisions, and public compliance with health guidelines to determine the factors contributing to these high death rates.
 
-4. **Which countries have the highest death counts per population, and what might be contributing factors?**
-   - **Answer**: By calculating the death count per population (total deaths/population), we can identify the countries most impacted by COVID-19 fatalities. Factors contributing to high death rates may include healthcare infrastructure, government response, population density, and pre-existing health conditions. Understanding these factors can help tailor responses to mitigate future outbreaks.
+4. **What are the possible reasons for the extremely high global death percentage of 90.9% among infected individuals?**
+   - **Context**: The global statistics suggest a death percentage of 90.9% among those infected, which appears disproportionately high.
+   - **Follow-up**: Verify data accuracy and investigate potential data recording or reporting issues. Assess global healthcare responses, availability of treatments, and the accuracy of reported cases and deaths.
 
-5. **How do infection and vaccination rates vary across different continents?**
-   - **Answer**: Aggregating data by continent and analyzing infection and vaccination rates provides a broader regional perspective. This comparison helps identify which continents are lagging in vaccination efforts or have higher infection rates, guiding international aid and resource allocation. It also aids businesses in making strategic decisions regarding operations and expansions in different regions based on the pandemic's impact.
+5. **How did the vaccination rollout in the United States progress, given the low vaccination rate of 1.71% in December 2020?**
+   - **Context**: Only 1.71% of the population in the United States was vaccinated by December 2020.
+   - **Follow-up**: Analyze the initial challenges faced during the vaccine rollout, such as supply chain issues, distribution logistics, vaccine hesitancy, and prioritization strategies. Compare this with subsequent months to understand improvements and adaptations.
+
+### Conclusion
+
+By addressing these questions, I, as a health analyst, can gain deeper insights into the effectiveness of public health responses, identify areas needing improvement, and develop strategies to better manage future health crises.
