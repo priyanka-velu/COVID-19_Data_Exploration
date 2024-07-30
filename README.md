@@ -109,7 +109,3 @@ Querying and Analyzing COVID-19 metrics in Microsoft SQL Server Management Studi
 5. **How did the vaccination rollout in the United States progress, given the low vaccination rate of 1.71% in December 2020?**
    - **Context**: Only 1.71% of the population in the United States was vaccinated by December 2020.
    - **Follow-up**: Analyze the initial challenges faced during the vaccine rollout, such as supply chain issues, distribution logistics, vaccine hesitancy, and prioritization strategies. Compare this with subsequent months to understand improvements and adaptations.
-
-### Conclusion
-
-By addressing these questions, I, as a health analyst, can gain deeper insights into the effectiveness of public health responses, identify areas needing improvement, and develop strategies to better manage future health crises.
