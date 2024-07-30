@@ -1,7 +1,7 @@
 # SQL Data Exploration: COVID-19 Health Analyst
 
 ## Project Overview
-The COVID-19 pandemic has had a profound impact on global health and economies, necessitating a comprehensive analysis of its spread, fatalities, and vaccination efforts. This project aims to explore and analyze the COVID-19 dataset from OurWorldInData using Microsoft SQL Server Management Studio (SSMS). By leveraging SQL queries, we will gain valuable insights into the pandemic's impact across different countries and continents. Key areas of focus include infection rates, case fatality rates, vaccination coverage, and their relationships with population metrics. This project will also highlight the importance of data cleaning, standardization, and the use of SQL tools for data analysis and visualization preparation.
+Querying and Analyzing COVID-19 metrics in Microsoft SQL Server Management Studio from 2020 to 2024 as a Health Analyst. Key areas of focus include infection rates, case fatality rates, vaccination coverage, and their relationships with population metrics.
 
 ## Resources
 1. **Data Source:**
