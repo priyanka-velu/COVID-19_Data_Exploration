@@ -88,7 +88,7 @@ Querying and Analyzing COVID-19 metrics in Microsoft SQL Server Management Studi
 
 ![Screenshot 2024-07-20 185628](https://github.com/user-attachments/assets/ae49f620-e0d4-4266-b51f-4c28f46925f1)
 
-### Recommendations & Next Steps
+## Recommendations & Next Steps
 
 1. **What factors contributed to the high case fatality rate in Zimbabwe and the United Kingdom during May 2020?**
    - **Context**: The observed case fatality rates of 21.6% in Zimbabwe and 21.5% in the United Kingdom during May 2020 are significantly high.
