@@ -1,4 +1,4 @@
-# SQL COVID-19 Health Analyst
+# SQL COVID-19 Health Data Analyst
 
 ## Project Overview
 Querying and Analyzing COVID-19 metrics in Microsoft SQL Server Management Studio from 2020 to 2024 as a Health Analyst. Key areas of focus include infection rates, case fatality rates, vaccination coverage, and their relationships with population metrics.
